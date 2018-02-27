@@ -7,7 +7,7 @@ echo -e "\e[01;32m/*important package installation...\e[00m"
 
 # package installation list..
 
-pkg upgrade && pkg install autoconf automake bison bzip2 clang cmake \ coreutils diffutils flex gawk git grep gzip libtool make patch perl \ sed silversearcher-ag tar wget figlet pv -y
+pkg upgrade && pkg install autoconf automake bison bzip2 clang cmake \ coreutils diffutils flex gawk git grep gzip libtool make patch perl \ sed silversearcher-ag tar wget figlet pv -y -qq
 clear
 cp Crawford.flf $PREFIX/share/figlet/
 
